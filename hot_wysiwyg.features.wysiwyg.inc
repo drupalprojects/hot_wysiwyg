@@ -1,18 +1,18 @@
 <?php
 /**
  * @file
- * panopoly_wysiwyg.features.wysiwyg.inc
+ * hot_wysiywg.features.wysiwyg.inc
  */
 
 /**
  * Implements hook_wysiwyg_default_profiles().
  */
-function panopoly_wysiwyg_wysiwyg_default_profiles() {
+function hot_wysiywg_wysiwyg_default_profiles() {
   $profiles = array();
 
-  // Exported profile: panopoly_html_text
-  $profiles['panopoly_html_text'] = array(
-    'format' => 'panopoly_html_text',
+  // Exported profile: hotsauce_html_text
+  $profiles['hotsauce_html_text'] = array(
+    'format' => 'hotsauce_html_text',
     'editor' => 'markitup',
     'settings' => array(
       'default' => 1,
@@ -45,9 +45,9 @@ function panopoly_wysiwyg_wysiwyg_default_profiles() {
     ),
   );
 
-  // Exported profile: panopoly_wysiwyg_text
-  $profiles['panopoly_wysiwyg_text'] = array(
-    'format' => 'panopoly_wysiwyg_text',
+  // Exported profile: hot_wysiywg_text
+  $profiles['hot_wysiywg_text'] = array(
+    'format' => 'hot_wysiywg_text',
     'editor' => 'tinymce',
     'settings' => array(
       'default' => 1,

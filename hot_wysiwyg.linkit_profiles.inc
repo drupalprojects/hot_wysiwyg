@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * panopoly_wysiwyg.linkit_profiles.inc
+ * hot_wysiywg.linkit_profiles.inc
  */
 
 /**
  * Implements hook_default_linkit_profiles().
  */
-function panopoly_wysiwyg_default_linkit_profiles() {
+function hot_wysiywg_default_linkit_profiles() {
   $export = array();
 
   $linkit_profile = new stdClass();

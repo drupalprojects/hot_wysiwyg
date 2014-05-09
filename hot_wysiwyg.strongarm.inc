@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * panopoly_wysiwyg.strongarm.inc
+ * hot_wysiywg.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function panopoly_wysiwyg_strongarm() {
+function hot_wysiywg_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

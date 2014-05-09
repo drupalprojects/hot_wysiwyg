@@ -1,6 +1,6 @@
-Panopoly WYSIWYG
+HotWYSIWYG!
 ================
-Integrates a WYSIWYG into Panopoly
+Integrates a WYSIWYG into HotSauce!
 
 Key Features
 * The best TinyMCE WYSIWYG in Drupal

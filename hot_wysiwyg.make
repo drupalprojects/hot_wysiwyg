@@ -1,4 +1,4 @@
-; Panopoly WYSIWYG Makefile
+; hotsauce WYSIWYG Makefile
 
 api = 2
 core = 7.x

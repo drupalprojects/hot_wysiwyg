@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * panopoly_wysiwyg.features.inc
+ * hot_wysiywg.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function panopoly_wysiwyg_ctools_plugin_api($module = NULL, $api = NULL) {
+function hot_wysiywg_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "linkit" && $api == "linkit_profiles") {
     return array("version" => "1");
   }

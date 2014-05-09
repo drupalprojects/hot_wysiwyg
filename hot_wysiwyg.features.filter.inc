@@ -1,18 +1,18 @@
 <?php
 /**
  * @file
- * panopoly_wysiwyg.features.filter.inc
+ * hot_wysiywg.features.filter.inc
  */
 
 /**
  * Implements hook_filter_default_formats().
  */
-function panopoly_wysiwyg_filter_default_formats() {
+function hot_wysiywg_filter_default_formats() {
   $formats = array();
 
   // Exported format: HTML.
-  $formats['panopoly_html_text'] = array(
-    'format' => 'panopoly_html_text',
+  $formats['hotsauce_html_text'] = array(
+    'format' => 'hotsauce_html_text',
     'name' => 'HTML',
     'cache' => 1,
     'status' => 1,
@@ -247,8 +247,8 @@ img[!src|title|alt|style|width|height|class|hspace|vspace],
   );
 
   // Exported format: WYSIWYG.
-  $formats['panopoly_wysiwyg_text'] = array(
-    'format' => 'panopoly_wysiwyg_text',
+  $formats['hot_wysiywg_text'] = array(
+    'format' => 'hot_wysiywg_text',
     'name' => 'WYSIWYG',
     'cache' => 1,
     'status' => 1,
