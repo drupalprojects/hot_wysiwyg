@@ -1,4 +1,4 @@
-sname = HotWYSIWYG!
+name = HotWYSIWYG!
 description = Integrates a WYSIWYG into Drupal.
 core = 7.x
 package = HotSauce!
